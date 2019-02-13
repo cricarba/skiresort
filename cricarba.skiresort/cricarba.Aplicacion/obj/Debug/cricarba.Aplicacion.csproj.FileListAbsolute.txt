@@ -1,0 +1,6 @@
+C:\Users\cristian.carvajal\Source\Repos\skiresort\cricarba.skiresort\cricarba.Aplicacion\bin\Debug\cricarba.Aplicacion.dll
+C:\Users\cristian.carvajal\Source\Repos\skiresort\cricarba.skiresort\cricarba.Aplicacion\bin\Debug\cricarba.Aplicacion.pdb
+C:\Users\cristian.carvajal\Source\Repos\skiresort\cricarba.skiresort\cricarba.Aplicacion\obj\Debug\cricarba.Aplicacion.csprojAssemblyReference.cache
+C:\Users\cristian.carvajal\Source\Repos\skiresort\cricarba.skiresort\cricarba.Aplicacion\obj\Debug\cricarba.Aplicacion.csproj.CoreCompileInputs.cache
+C:\Users\cristian.carvajal\Source\Repos\skiresort\cricarba.skiresort\cricarba.Aplicacion\obj\Debug\cricarba.Aplicacion.dll
+C:\Users\cristian.carvajal\Source\Repos\skiresort\cricarba.skiresort\cricarba.Aplicacion\obj\Debug\cricarba.Aplicacion.pdb
