@@ -1,0 +1,5 @@
+﻿################################################################################
+# Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
+################################################################################
+
+/cricarba.skiresort/.vs/cricarba.skiresort/v15/Server/sqlite3
