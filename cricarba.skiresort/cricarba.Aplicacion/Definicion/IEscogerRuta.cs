@@ -2,8 +2,8 @@
 
 namespace cricarba.Aplicacion.Definicion
 {
-    public interface IGenerarRuta
+    public interface IEscogerRuta
     {
-        List<List<int>> GenerarRutas(int[,] matriz); 
+        List<int> EscogerMejorRuta(List<List<int>> rutas);
     }
 }

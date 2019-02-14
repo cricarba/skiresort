@@ -42,9 +42,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Definicion\ICargarArchivo.cs" />
+    <Compile Include="Definicion\IEscogerRuta.cs" />
     <Compile Include="Definicion\IGenerarRuta.cs" />
     <Compile Include="Definicion\IProcesarArchivo.cs" />
     <Compile Include="Implementacion\CargarArchivo.cs" />
+    <Compile Include="Implementacion\EscogerRuta.cs" />
     <Compile Include="Implementacion\GenerarRuta.cs" />
     <Compile Include="Implementacion\ProcesarArchivo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

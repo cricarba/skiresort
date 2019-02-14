@@ -8,10 +8,10 @@ namespace cricarba.skiresort.Controllers
     {
         public ActionResult Index()
         {
-            var contenidoArchivo = FachadaContenedor.Resolver<ICargarArchivo>().LeerArchivo(@"C:\Users\cristian.carvajal\Downloads\skirsesort.kitzbuehel\4x4.txt");
+            var contenidoArchivo = FachadaContenedor.Resolver<ICargarArchivo>().LeerArchivo(@"C:\Users\cristian.carvajal\Downloads\skirsesort.kitzbuehel\map.txt");
             var matriz = FachadaContenedor.Resolver<IProcesarArchivo<int>>().CargarMatrizDesdeArchivo(contenidoArchivo);
-            FachadaContenedor.Resolver<IGenerarRuta>().GenerarRutas(matriz);
-
+            var rutas = FachadaContenedor.Resolver<IGenerarRuta>().GenerarRutas(matriz);
+            var mejorRuta = FachadaContenedor.Resolver<IEscogerRuta>().EscogerMejorRuta(rutas);
             return View();
         }
 

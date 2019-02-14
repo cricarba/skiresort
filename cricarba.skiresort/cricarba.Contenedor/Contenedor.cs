@@ -23,7 +23,7 @@ namespace cricarba.Contenedor
                 _unityContainer.RegisterType<ICargarArchivo, CargarArchivo>();
                 _unityContainer.RegisterType<IProcesarArchivo<int>, ProcesarArchivo>();
                 _unityContainer.RegisterType<IGenerarRuta, GenerarRuta>();
-
+                _unityContainer.RegisterType<IEscogerRuta, EscogerRuta>();                
                 return _unityContainer;
             }
         }
